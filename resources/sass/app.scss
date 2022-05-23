@@ -1,1 +1,23 @@
-//
+// Reset 
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+// General
+.container {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+
+    .card {
+        width: 220px;
+        margin: 5px;
+
+        h5 {
+            margin-bottom: 10px;
+        }
+    }
+}
